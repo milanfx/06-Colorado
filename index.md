@@ -1,120 +1,161 @@
----
-layout: page
-title: DS Express
-permalink: /
----
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{{ page.title }}</title>
+  <style>
+    :root {
+      --c1: #311b92;
+      --c2: #4527a0;
+      --c3: #512da8;
+      --c4: #5e35b1;
+      --c5: #673ab7;
+      --c0: #d1c4e9;
+    }
 
-<h3>Study Notes</h3>
+    body {
+      background-color: Ivory;
+      color: DarkSlateGray;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 16px;
+      line-height: 1;
+    }
 
-xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx
+    .container {
+      max-width: 940px;
+      min-width: 720px;
+      min-height: 1250px;
+      padding: 5px;
+    }
 
-<div>
-  <span class="btn spec1"><span class="btn spec2">Specialization 01 - Math Beginners</span>
-  <br>
-  <a href="/01-DS-Express/DS01/" class="btn cour1">Differential<br>Calculus</a>
-  <a href="/01-DS-Express/DS02/" class="btn cour2">Linear<br>Algebra</a>
-  <a href="/01-DS-Express/DS03/" class="btn cour3">Integral<br>Calculus</a>
-  </span>
-  <span class="btn spec1"><span class="btn spec2">Specialization 02 - Analytics Beginners</span>
-  <br>
-  <a href="/01-DS-Express/DS04/" class="btn icon1">Analytics<br>Introduction</a>
-  <a href="/01-DS-Express/DS05/" class="btn icon2">Analytics<br>Modeling</a>
-  <a href="/01-DS-Express/DS06/" class="btn icon3">Analytics<br>Optimization</a>
-  <a href="/01-DS-Express/DS07/" class="btn icon4">Analytics<br>Reporting</a>
-  </span>
-</div>
+    .btn {
+      display: block;
+      background-color: var(--c1);
+      color: Ivory;
+      text-align: center;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 16px;
+      overflow: hidden;
+      margin: 5px 0px;
+      padding: 5px;
+      border-radius: 5px;
+      border: 2px solid var(--c1);
+      box-sizing: border-box;
+      text-decoration: none;
+      flex-shrink: 0;
+      width: 100%;
+    }
 
-<div>
-  <span class="btn spec1"><span class="btn spec2">Specialization 03 - Tidyverse Programming</span>
-  <br>
-  <a href="/01-DS-Express/DS08/" class="btn cour1">Tidyverse<br>Introduction</a>
-  <a href="/01-DS-Express/DS09/" class="btn cour2">Tidyverse<br>Analysis</a>
-  <a href="/01-DS-Express/DS10/" class="btn cour3">Tidyverse<br>Projects</a>
-  </span>
-  <span class="btn spec1"><span class="btn spec2">Specialization 04 - Python Programming</span>
-  <br>
-  <a href="/01-DS-Express/DS11/" class="btn cour1">Python<br>Fundamentals</a>
-  <a href="/01-DS-Express/DS12/" class="btn cour2">Python<br>Functions</a>
-  <a href="/01-DS-Express/DS13/" class="btn cour3">Python<br>Packages</a>
-  </span>
-</div>
+    .btn.title {
+      font-size: 40px;
+      border-radius: 0px;
+      border: 0px;
+      line-height: 1.2;
+      white-space: nowrap;
+      margin: 0px 0px;
+    }
 
-<div>
-  <span class="btn spec1"><span class="btn spec2">Specialization 05 - Python Beginners</span>
-  <br>
-  <a href="/01-DS-Express/DS14/" class="btn cour1">Python<br>Essentials</a>
-  <a href="/01-DS-Express/DS15/" class="btn cour2">Flow<br>Controls</a>
-  <a href="/01-DS-Express/DS16/" class="btn cour3">Data<br>Structures</a>
-  </span>
-  <span class="btn spec1"><span class="btn spec2">Specialization 06 - Python Intermediate</span>
-  <br>
-  <a href="/01-DS-Express/DS17/" class="btn cour1">Object<br>Oriented</a>
-  <a href="/01-DS-Express/DS18/" class="btn cour2">NumPy<br>& Pandas</a>
-  <a href="/01-DS-Express/DS19/" class="btn cour3">Data<br>Visualization</a>
-  </span>
-</div>
+    .btn.line {
+      background-color: Ivory;
+      border-radius: 0px;
+      border: 5px solid var(--c1);
+      padding: 3px 0px;
+      border-left: none;
+      border-right: none;
+    }
 
-<div>
-  <span class="btn spec1"><span class="btn spec2">Specialization 07 - Data Wrangling</span>
-  <br>
-  <a href="/01-DS-Express/DS20/" class="btn icon1">Wrangling<br>Tools</a>
-  <a href="/01-DS-Express/DS21/" class="btn icon2">Data<br>Integration</a>
-  <a href="/01-DS-Express/DS22/" class="btn icon3">Data<br>Visualization</a>
-  <a href="/01-DS-Express/DS23/" class="btn icon4">Data<br>Manipulation</a>
-  </span>
-  <span class="btn spec1"><span class="btn spec2">Specialization 08 - Data Analysis</span>
-  <br>
-  <a href="/01-DS-Express/DS24/" class="btn icon1">Classification<br>Analysis</a>
-  <a href="/01-DS-Express/DS25/" class="btn icon2">Regression<br>Analysis</a>
-  <a href="/01-DS-Express/DS26/" class="btn icon3">Clustering<br>Analysis</a>
-  <a href="/01-DS-Express/DS27/" class="btn icon4">Association<br>Rules</a>
-  </span>
-</div>
+    .btn.back {
+      background-color: Ivory;
+      color: var(--c1);
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 0px;
+      white-space: nowrap;
+      line-height: 1;
+    }
 
-<div>
-  <span class="btn spec1"><span class="btn spec2">Specialization 09 - Excel Beginners</span>
-  <br>
-  <a href="/01-DS-Express/DS28/" class="btn cour1">Excel<br>Functions</a>
-  <a href="/01-DS-Express/DS29/" class="btn cour2">Excel<br>Applications</a>
-  <a href="/01-DS-Express/DS30/" class="btn cour3">Excel<br>Projects</a>
-  </span>
-  <span class="btn spec1"><span class="btn spec2">Specialization 10 - VBA Beginners</span>
-  <br>
-  <a href="/01-DS-Express/DS31/" class="btn cour1">VBA<br>Functions</a>
-  <a href="/01-DS-Express/DS32/" class="btn cour2">VBA<br>Applications</a>
-  <a href="/01-DS-Express/DS33/" class="btn cour3">VBA<br>Projects</a>
-  </span>
-</div>
+    .btn.sign {
+      background-color: Ivory;
+      color: var(--c1);
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 0px;
+      border: 2px solid var(--c1);
+      border-left: none;
+      border-right: none;
+      white-space: nowrap;
+      line-height: 1;
+    }
 
-<div>
-  <span class="btn spec1"><span class="btn spec2">Specialization 11 - Statistics Beginners</span>
-  <br>
-  <a href="/01-DS-Express/DS34/" class="btn cour1">Data<br>Distribution</a>
-  <a href="/01-DS-Express/DS35/" class="btn cour2">Regression<br>& ANOVA</a>
-  <a href="/01-DS-Express/DS36/" class="btn cour3">R<br>Introduction</a>
-  </span>
-  <span class="btn spec1"><span class="btn spec2">Specialization 12 - Tableau Beginners</span>
-  <br>
-  <a href="/01-DS-Express/DS37/" class="btn cour1">Tableau<br>Fundamentals</a>
-  <a href="/01-DS-Express/DS38/" class="btn cour2">Tableau<br>Dashboard</a>
-  <a href="/01-DS-Express/DS39/" class="btn cour3">Tableau<br>Advanced</a>
-  </span>
-</div>
+    .btn.name {
+      background-color: Ivory;
+      color: var(--c1);
+      font-weight: bold;
+      border-radius: 0px;
+      text-align: left;
+      border-left: none;
+      border-right: none;
+      white-space: nowrap;
+    }
 
-<div>
-  <span class="btn spec1"><span class="btn spec2">Specialization 13 - Communication</span>
-  <br>
-  <a href="/01-DS-Express/DS40/" class="btn cour1">Helpful<br>Feedback</a>
-  <a href="/01-DS-Express/DS41/" class="btn cour2">Teamwork<br>Skills</a>
-  <a href="/01-DS-Express/DS42/" class="btn cour3">Creative<br>Self</a>
-  </span>
-  <span class="btn spec1"><span class="btn spec2">Specialization</span>
-  <br>
-  <a href="" class="btn icon1">C1<br>_</a>
-  <a href="" class="btn icon2">C2<br>_</a>
-  <a href="" class="btn icon3">C3<br>_</a>
-  <a href="" class="btn icon4">C4<br>_</a>
-  </span>
-</div>
+    .btn.topic {
+      background-color: var(--c2);
+      font-size: 24px;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
 
-<h3>Milanfx</h3>
+    .btn.text {
+      background-color: var(--c0);
+      color: var(--c1);
+      text-align: left;
+    }
+
+    .btn.box1 { background-color: var(--c1); }
+    .btn.box2 { background-color: var(--c2); }
+    .btn.box3 { background-color: var(--c3); }
+    .btn.box4 { background-color: var(--c4); }
+    .btn.box5 { background-color: var(--c5); }
+
+    .block {
+      display: grid;
+      gap: 10px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .row {
+      display: grid;
+      gap: 5px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="btn line">
+        <div class="btn title">
+          {{ page.title }}
+        </div>
+      </div>
+    </div>
+    <div class="row" style="grid-template-columns: 1fr 6fr 1fr;">
+      <a href="/" class="btn back">Go Home</a>
+      <a href="#" class="btn sign">Study Notes</a>
+      <a href="javascript:history.back()" class="btn back">Go Back</a>
+    </div>
+    <div>
+      {{ content }}
+    </div>
+    <div class="row" style="grid-template-columns: 1fr 6fr 1fr;">
+      <a href="/" class="btn back">Go Home</a>
+      <a href="#" class="btn sign">MilanFX</a>
+      <a href="javascript:history.back()" class="btn back">Go Back</a>
+    </div>
+  </div>
+</body>
+</html>
