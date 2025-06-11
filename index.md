@@ -95,7 +95,7 @@ permalink: /
       <a href="/06-Colorado/CO33/" class="btn box1"><br></a>
       <a href="/06-Colorado/CO34/" class="btn box2"><br></a>
       <a href="/06-Colorado/CO35/" class="btn box3"><br></a>
-      <a href="/06-Colorado/CO36/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO36/" class="btn box4"><br></a>
     </div>
   </div>
   <div class="btn text">
@@ -104,7 +104,7 @@ permalink: /
       <a href="/06-Colorado/CO37/" class="btn box1"><br></a>
       <a href="/06-Colorado/CO38/" class="btn box2"><br></a>
       <a href="/06-Colorado/CO39/" class="btn box3"><br></a>
-      <a href="/06-Colorado/CO40/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO40/" class="btn box4"><br></a>
     </div>
   </div>
 </div>
@@ -116,7 +116,7 @@ permalink: /
       <a href="/06-Colorado/CO41/" class="btn box1"><br></a>
       <a href="/06-Colorado/CO42/" class="btn box2"><br></a>
       <a href="/06-Colorado/CO43/" class="btn box3"><br></a>
-      <a href="/06-Colorado/CO44/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO44/" class="btn box4"><br></a>
     </div>
   </div>
   <div class="btn text">
@@ -125,28 +125,55 @@ permalink: /
       <a href="/06-Colorado/CO45/" class="btn box1"><br></a>
       <a href="/06-Colorado/CO46/" class="btn box2"><br></a>
       <a href="/06-Colorado/CO47/" class="btn box3"><br></a>
-      <a href="/06-Colorado/CO48/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO48/" class="btn box4"><br></a>
     </div>
   </div>
 </div>
 
 <div class="block" style="grid-template-columns: 1fr 1fr;">
   <div class="btn text">
-    <div class="btn name">Specialization 13 - Clinical DataScience</div>
-    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
-      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
-      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
-      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
-      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    <div class="btn name">Specialization 13 - Requirements Engineering</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO49/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO50/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO51/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO52/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO53/" class="btn box3"><br></a>
     </div>
   </div>
   <div class="btn text">
-    <div class="btn name">Specialization 14 - Marketing DataScience</div>
-    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
-      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
-      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
-      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
-      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    <div class="btn name">Specialization 14 - Data Warehousing</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO54/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO55/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO56/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO57/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO58/" class="btn box3"><br></a>
+    </div>
+  </div>
+</div>
+
+<div class="block" style="grid-template-columns: 1fr 1fr;">
+  <div class="btn text">
+    <div class="btn name">Specialization 15 - Applied Cryptography</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO59/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO60/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO61/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO62/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO63/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO64/" class="btn box3"><br></a>
+    </div>
+  </div>
+  <div class="btn text">
+    <div class="btn name">Specialization 16 - Clinical DataScience</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO65/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO66/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO67/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO68/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO69/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO70/" class="btn box3"><br></a>
     </div>
   </div>
 </div>
