@@ -1,161 +1,152 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>{{ page.title }}</title>
-  <style>
-    :root {
-      --c1: #311b92;
-      --c2: #4527a0;
-      --c3: #512da8;
-      --c4: #5e35b1;
-      --c5: #673ab7;
-      --c0: #d1c4e9;
-    }
+---
+layout: page
+title: Colorado Courses
+permalink: /
+---
 
-    body {
-      background-color: Ivory;
-      color: DarkSlateGray;
-      font-family: 'Roboto Condensed', sans-serif;
-      font-size: 16px;
-      line-height: 1;
-    }
-
-    .container {
-      max-width: 940px;
-      min-width: 720px;
-      min-height: 1250px;
-      padding: 5px;
-    }
-
-    .btn {
-      display: block;
-      background-color: var(--c1);
-      color: Ivory;
-      text-align: center;
-      font-family: 'Roboto Condensed', sans-serif;
-      font-size: 16px;
-      overflow: hidden;
-      margin: 5px 0px;
-      padding: 5px;
-      border-radius: 5px;
-      border: 2px solid var(--c1);
-      box-sizing: border-box;
-      text-decoration: none;
-      flex-shrink: 0;
-      width: 100%;
-    }
-
-    .btn.title {
-      font-size: 40px;
-      border-radius: 0px;
-      border: 0px;
-      line-height: 1.2;
-      white-space: nowrap;
-      margin: 0px 0px;
-    }
-
-    .btn.line {
-      background-color: Ivory;
-      border-radius: 0px;
-      border: 5px solid var(--c1);
-      padding: 3px 0px;
-      border-left: none;
-      border-right: none;
-    }
-
-    .btn.back {
-      background-color: Ivory;
-      color: var(--c1);
-      font-size: 14px;
-      font-weight: bold;
-      border-radius: 0px;
-      white-space: nowrap;
-      line-height: 1;
-    }
-
-    .btn.sign {
-      background-color: Ivory;
-      color: var(--c1);
-      font-size: 14px;
-      font-weight: bold;
-      border-radius: 0px;
-      border: 2px solid var(--c1);
-      border-left: none;
-      border-right: none;
-      white-space: nowrap;
-      line-height: 1;
-    }
-
-    .btn.name {
-      background-color: Ivory;
-      color: var(--c1);
-      font-weight: bold;
-      border-radius: 0px;
-      text-align: left;
-      border-left: none;
-      border-right: none;
-      white-space: nowrap;
-    }
-
-    .btn.topic {
-      background-color: var(--c2);
-      font-size: 24px;
-      line-height: 1.2;
-      white-space: nowrap;
-    }
-
-    .btn.text {
-      background-color: var(--c0);
-      color: var(--c1);
-      text-align: left;
-    }
-
-    .btn.box1 { background-color: var(--c1); }
-    .btn.box2 { background-color: var(--c2); }
-    .btn.box3 { background-color: var(--c3); }
-    .btn.box4 { background-color: var(--c4); }
-    .btn.box5 { background-color: var(--c5); }
-
-    .block {
-      display: grid;
-      gap: 10px;
-      width: 100%;
-      box-sizing: border-box;
-    }
-
-    .row {
-      display: grid;
-      gap: 5px;
-      width: 100%;
-      box-sizing: border-box;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="btn line">
-        <div class="btn title">
-          {{ page.title }}
-        </div>
-      </div>
-    </div>
-    <div class="row" style="grid-template-columns: 1fr 6fr 1fr;">
-      <a href="/" class="btn back">Go Home</a>
-      <a href="#" class="btn sign">Study Notes</a>
-      <a href="javascript:history.back()" class="btn back">Go Back</a>
-    </div>
-    <div>
-      {{ content }}
-    </div>
-    <div class="row" style="grid-template-columns: 1fr 6fr 1fr;">
-      <a href="/" class="btn back">Go Home</a>
-      <a href="#" class="btn sign">MilanFX</a>
-      <a href="javascript:history.back()" class="btn back">Go Back</a>
+<div class="block" style="grid-template-columns: 1fr 1fr;">
+  <div class="btn text">
+    <div class="btn name">Specialization 01 - C Programming</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
     </div>
   </div>
-</body>
-</html>
+  <div class="btn text">
+    <div class="btn name">Specialization 02 - C++ Programming</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    </div>
+  </div>
+</div>
+
+<div class="block" style="grid-template-columns: 1fr 1fr;">
+  <div class="btn text">
+    <div class="btn name">Specialization 03 - C# Programming</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    </div>
+  </div>
+  <div class="btn text">
+    <div class="btn name">Specialization 04 - GameMaker Programming</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    </div>
+  </div>
+</div>
+
+<div class="block" style="grid-template-columns: 1fr 1fr;">
+  <div class="btn text">
+    <div class="btn name">Specialization 05 - Fundamental Security</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    </div>
+  </div>
+  <div class="btn text">
+    <div class="btn name">Specialization 06 - Advanced Security</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    </div>
+  </div>
+</div>
+
+<div class="block" style="grid-template-columns: 1fr 1fr;">
+  <div class="btn text">
+    <div class="btn name">Specialization 07 - Business Cybersecurity</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    </div>
+  </div>
+  <div class="btn text">
+    <div class="btn name">Specialization 08 - Homeland Cybersecurity</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    </div>
+  </div>
+</div>
+
+<div class="block" style="grid-template-columns: 1fr 1fr;">
+  <div class="btn text">
+    <div class="btn name">Specialization 09 - Computer Communication</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    </div>
+  </div>
+  <div class="btn text">
+    <div class="btn name">Specialization 10 - Requirements Engineering</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    </div>
+  </div>
+</div>
+
+<div class="block" style="grid-template-columns: 1fr 1fr;">
+  <div class="btn text">
+    <div class="btn name">Specialization 11 - Applied Cryptography</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    </div>
+  </div>
+  <div class="btn text">
+    <div class="btn name">Specialization 12 - Data Warehousing</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    </div>
+  </div>
+</div>
+
+<div class="block" style="grid-template-columns: 1fr 1fr;">
+  <div class="btn text">
+    <div class="btn name">Specialization 13 - Clinical DataScience</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    </div>
+  </div>
+  <div class="btn text">
+    <div class="btn name">Specialization 14 - Marketing DataScience</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+    </div>
+  </div>
+</div>
