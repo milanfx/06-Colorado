@@ -71,19 +71,19 @@ permalink: /
   <div class="btn text">
     <div class="btn name">Specialization 07 - Business Cybersecurity</div>
     <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
-      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
-      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
-      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
-      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO25/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO26/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO27/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO28/" class="btn box4"><br></a>
     </div>
   </div>
   <div class="btn text">
     <div class="btn name">Specialization 08 - Homeland Cybersecurity</div>
     <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
-      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
-      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
-      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
-      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO29/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO30/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO31/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO32/" class="btn box4"><br></a>
     </div>
   </div>
 </div>
@@ -92,40 +92,40 @@ permalink: /
   <div class="btn text">
     <div class="btn name">Specialization 09 - Computer Communication</div>
     <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
-      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
-      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
-      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
-      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO33/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO34/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO35/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO36/" class="btn box3"><br></a>
     </div>
   </div>
   <div class="btn text">
-    <div class="btn name">Specialization 10 - Requirements Engineering</div>
+    <div class="btn name">Specialization 10 - System Management</div>
     <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
-      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
-      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
-      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
-      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO37/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO38/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO39/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO40/" class="btn box3"><br></a>
     </div>
   </div>
 </div>
 
 <div class="block" style="grid-template-columns: 1fr 1fr;">
   <div class="btn text">
-    <div class="btn name">Specialization 11 - Applied Cryptography</div>
+    <div class="btn name">Specialization 11 - Software Design</div>
     <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
-      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
-      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
-      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
-      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO41/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO42/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO43/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO44/" class="btn box3"><br></a>
     </div>
   </div>
   <div class="btn text">
-    <div class="btn name">Specialization 12 - Data Warehousing</div>
+    <div class="btn name">Specialization 12 - Marketing DataScience</div>
     <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
-      <a href="/06-Colorado/CO01/" class="btn box1"><br></a>
-      <a href="/06-Colorado/CO02/" class="btn box2"><br></a>
-      <a href="/06-Colorado/CO03/" class="btn box3"><br></a>
-      <a href="/06-Colorado/CO04/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO45/" class="btn box1"><br></a>
+      <a href="/06-Colorado/CO46/" class="btn box2"><br></a>
+      <a href="/06-Colorado/CO47/" class="btn box3"><br></a>
+      <a href="/06-Colorado/CO48/" class="btn box3"><br></a>
     </div>
   </div>
 </div>
